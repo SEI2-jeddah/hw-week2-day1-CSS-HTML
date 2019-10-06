@@ -3,6 +3,7 @@
 /*******************************************/
 
 /* Box Model */
+
 * {
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
@@ -14,7 +15,14 @@
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+@font-face {
+    font-family: "Open Sans", Arial, sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+    font-style:  italic;
+    font-weight: lighter;
+    /*Weight: Light, Light Italic, Semibold, Extrabold*/
+}
 
 /******************************************
 /* BASE STYLES
@@ -34,17 +42,90 @@ body {
 /*******************************************/
 
 header {
-
+         background-image: url("/starter_code/images/header_bg.jpg");
 }
 
 footer {
-
+    background-color: #121212
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-
-
-
+#firstSquare{
+    background-color: #f0efef;
+}
+#secondSquare{
+    background-image: url("/starter_code/images/testimonial_bg.jpg");
+}
+#thirdSquare{
+    background-color:#f9e42e;
+}
+.companyName{
+    /*Extra bold, 24px*/
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+.descrip{
+    /*Semibold, 24px*/
+    font-weight: Semibold;
+    font-size: 24px;
+    color: white;
+}
+.name1{ 
+    /*Extra bold, 14px. 5px border radius*/
+    font-weight: bold;
+    font-size: 14px;
+    color: #033048;
+}
+.name2{
+    /*Semibold, 20px*/
+    font-weight: bold;
+    font-size: 20px;
+    color: #033048;
+}
+.name3{
+    /*Light, 13px*/
+    font-weight: lighter;
+    font-size: 13px;
+    color: #606161;
+}
+.tab1{
+    /*Light, 13px*/
+    font-weight: lighter;
+    font-size: 13px;
+    color: #606161;
+}
+.name4{
+    /*Light Italic, 18px*/
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 18px;
+    color: #606161;
+}
+.name5{
+    /*semibold, 18px*/
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.name6{
+    /*extra bold, 12px, 5px border radius*/
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+.name7{
+    /*extra bold, 24px*/
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9e42e;
+}
+.name8{
+    /*9px, semibold*/
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+}
