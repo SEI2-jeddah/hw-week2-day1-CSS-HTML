@@ -26,25 +26,177 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-
+.mainpage   {
+    background-image: url(/images/header_bg.jpg);
+    width: 1200px;
+    height: 700px;
+}
+ 
+.bar   {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    padding: 30px;
+    margin-left: 30px;
+}
+.get{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+}
+.button {
+    color: 033048;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: #f9e42e;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+    width: 130px;
+    height: 30px;
+}
+.benefits   {
+    background-color: #f0efef;
+    width: 1200px;
+    height: 650px;
+}
+.benifit-header {
+    color: #033048;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px;
+    margin-left: 30px;
+}
+.benefit-text   {
+    color: #606161;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: -40px;
+    max-width: 31%;
+    
+}
+ul   {
+    color: #606161;
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 30px;
+    margin-left: 50px;
+    margin-top: -20px;
+    max-width: 24%;
+    list-style-type: circle;
+}
+.third   {
+    background-image: url(/images/testimonial_bg.jpg);
+    width: 1200px;
+    height: 400px;
+    
+}
+.review {
+    text-align: center;
+    color: #f0efef;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 31%;
+    padding-top: 100px;
+}
+.writer {
+    text-align: center;
+    color: #f0efef;
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: 500;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 31%;
+}
+.signup   {
+    background-color: #f9e42e;
+    width: 1200px;
+    height: 130px;
+}
+.button-signup {
+    color: #f9e42e;
+    font-size: 12x;
+    font-weight: 900;
+    background-color: #f9e42e;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    width: 130px;
+    height: 30px; 
+    border: none;
+}
+.button-signup2 {
+    color: white;
+    font-size: 12x;
+    font-weight: 900;
+    background-color: #033048;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 30px; 
+}
 header {
 
 }
-
-footer {
-
+.lastpage   {
+    background-color: #121212;
+    width: 1200px;
+    height: 400px;
+    
+}   
+.logo   {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    padding: 90px;
+    margin-left: 30px;
+    text-align: center;
+}
+.facebook-twitter   {
+    text-align: center;
+}
+.facebook   {
+    padding-left: 30px;
+}
+.facebook-twitter{
+    scroll-padding-right: 30px;
+}
+.copyright  {
+    text-align: center;
+    color: #f0efef;
+    font-size: 9px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 31%;
+    padding-top: 100px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
 
 
 
