@@ -14,7 +14,7 @@
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800&display=swap');
 
 /******************************************
 /* BASE STYLES
@@ -22,10 +22,10 @@
 
 
 body {
-    color: #000;
+    color: white;
     font-size: 12px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Open Sans', Arial, sans-serif
 }
 
 
@@ -34,17 +34,129 @@ body {
 /*******************************************/
 
 header {
-
+ background-image: url("../images/header_bg.jpg");
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+  background-size: cover;
+ padding-bottom: 500px;
+ 
 }
 
 footer {
+color:white;
+ background:#121212;
+ font-size: 9px;
+ font-weight: 600;
+ text-align: center;
+ margin:auto;
+}
 
+section{
+    background:#f0efef;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+h1{
+    padding-left: 50px;
+}
+
+.relaxer-style{
+    font-weight: 800;
+    font-size:24px;
+}
+
+header > p{
+    font-weight: 600;
+    font-size:24px;
+    color:white;
+    text-align: center;
+}
+
+#get-it-now{
+    text-align: center;
+    width:100px;
+    margin:auto;
+    margin-top:200px;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    background: #f9e42e;
+    color:#033048;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 20px;
+    color:#033048;
+    padding-left:50px;
+}
+
+.yellow-background{
+    padding:10px;
+    background:#f9e42e;
+}
 
 
+h2+p , ul{
+    font-weight: 300;
+    font-size: 13px;
+    color:#606161;
+    padding-left:50px;
+}
 
 
+#quote{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color:white;
+}
+
+#name{
+    font-weight: 600;
+    font-size:18px;
+    color:white;
+    
+}
+
+#testimonial-bg{
+    text-align: center;
+    padding:200px;
+    background-image: url("../images/testimonial_bg.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer p:first-child{
+    color: #f9e42e;
+}
+
+.sign-up-now{
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 5px;
+    background:#033048;
+    color:white;
+    text-align: center;
+    width:100px;
+    margin:auto;
+}
+
+footer>img{
+    padding:20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    margin:10px
+}
