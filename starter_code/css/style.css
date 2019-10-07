@@ -3,14 +3,107 @@
 /*******************************************/
 
 /* Box Model */
-* {
+*{
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
+#box1{
+    box-sizing: content-box;
+    background-color: yellow;
+    width: 120px;
+    height: 20px;
+    padding: 15px 1px;  
+    border: none solid yellow;
+    margin: 4px 2px;
+    text-align: center;
+    font-size: 16px;
+    color: #033048;
+    font: Extra bold, 14px;
+    border-radius: 5px ;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+#box2{
+    box-sizing: content-box;
+    background-color: #033048;
+    width: 120px;
+    height: 20px;
+    padding: 15px 1px;  
+    border: none solid #033048;
+    margin: 4px 2px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font: Extra bold, 12px;
+    border-radius: 5px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+section 
+{
+    background-color: yellow;
+    width: 259px;
+    padding: 15px 500px;  
+    margin: 4px 2px;
+    border-radius: 5px 
+}
 /******************************************
-/* FONTS
+/* FONTS*/
+
+h1
+{
+    font-family: 'IBM Plex Sans Condensed', sans-serif bold, 24px;
+    color: white;
+    
+}
+h2
+{
+    font: Semibold, 24px;
+    color: white;
+    text-align: center
+}
+h5{
+    font: Semibold, 20px;
+}
+h4{
+    font : Light, 13px;
+}
+
+.p1
+{
+    font: Light Italic, 18px;
+    background-image : url("/css/images/testimonial_bg.jpg");
+    background-color: #606161;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 3%;
+    padding: 4%;
+    color: white;
+
+    
+}
+#p2
+{
+    font: semibold, 18px;
+    text-align: center;
+    color: white
+}
+#p3
+{
+   font-family: 'IBM Plex Sans Condensed', sans-serif, 24px;
+    color:yellow;
+    text-align: center;
+}
+#p4{
+    font: 9px, semibold;
+    color: white;
+    text-align: center
+}
+#Benefits
+{
+}
 /*******************************************/
 
 /* font-family: "Open Sans", Arial, sans-serif */
@@ -22,24 +115,45 @@
 
 
 body {
-    color: #000;
+    color:#606161;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    background: #c0c7c7;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+head{
+    background-image: url("/css/images/header_bg.jpg");
+    background-color: #be3535;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-header {
-
+.header {
+    background-image: url("/css/images/header_bg.jpg");
+    background-color: #be3535;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7%;
+    padding: 8%;
 }
 
-footer {
-
+.footer {
+    color: #121212
 }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul {
+    list-style-type: circle;
+    font :Light, 13px;
+  }
+
 
 /******************************************
 /* ADDITIONAL STYLES
