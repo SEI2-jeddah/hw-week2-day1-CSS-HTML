@@ -7,6 +7,7 @@
      -moz-box-sizing: border-box; /* Firexfox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
+     
 }
 
 /******************************************
@@ -23,9 +24,10 @@
 
 body {
     color: #000;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    /* background-color: antiquewhite; */
 }
 
 
@@ -34,13 +36,98 @@ body {
 /*******************************************/
 
 header {
-
+    background-image: url(/css/images/header_bg.jpg);
+    height: 450px;
+    margin: 100px 100px auto  100px;
+}
+ h1 {
+    font-size: 24px;
+    font-weight:bolder;
+    color: white; 
+    padding: 30px 80px;
+ }
+ #C{
+    font-weight: bolder;
+    font-size: 24px;
+ }
+ .style1{  
+    color: white; 
+    font-weight: bold;
+    font-size: 24px;
+    padding: 30px 80px;
+ }
+ .style2{
+    display: table; 
+    margin: 0px auto 0px auto; 
+    padding:5px;
+    font-size:14px;
+    background-color:yellow;
+    color:black;
+    font-weight:bolder;
+ }
+ .style3{
+    display: table; 
+    margin: auto auto auto auto; 
+    padding-top: 40px;
+    font-size:14px;
+    background-color:rgb(17, 30, 102);
+    color: white;
 }
 
-footer {
-
+ section {
+    background: rgb(206, 206, 206);
+    font-size: 20px;
+    height: 450px;
+    margin: auto 100px auto 100px; 
+ }
+ #A {
+    background-image: url(/css/images/testimonial_bg.jpg); 
+    height: 300px;
+    margin: auto 100px auto 100px;  
+    color: aliceblue;
+    
+ }
+ #yellowBox{
+     background: yellow;
+     height: 80px;
+     margin: auto 100px auto 100px;  
+ }
+ #blackBox {
+    background: black;
+    height: 300px;
+    margin: auto 100px auto 100px; 
+ }
+#B{
+    color: yellow;
+}
+#whit {
+  color: white  
+}
+.center-me {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+#D {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+#S {
+   color: light;
+   padding-bottom: 20px;
 }
 
+#F{
+    padding-left: 30px;
+}
+#G{
+    padding-top: 50px;
+    text-align: center;
+}
+#Z {
+    
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
