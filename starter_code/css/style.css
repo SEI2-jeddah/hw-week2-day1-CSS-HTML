@@ -33,7 +33,41 @@ body {
 /* LAYOUT
 /*******************************************/
 
-header {
+.header {
+    background:url('/images/header_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+.uppersection {
+    background-color:#f0efef;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+#logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    float: left;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+#heading{
+    margin-top: auto;
+    margin-bottom:auto;
+    text-align: center;
+    
 
 }
 
