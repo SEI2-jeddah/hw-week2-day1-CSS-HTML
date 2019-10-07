@@ -12,13 +12,18 @@
 /******************************************
 /* FONTS
 /*******************************************/
+p{
 
-/* font-family: "Open Sans", Arial, sans-serif */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    font-family: "Open Sans", Arial, sans-serif; 
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+    
+}
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
+
 
 
 body {
@@ -39,6 +44,7 @@ header {
 
 footer {
 
+
 }
 
 /******************************************
@@ -47,4 +53,10 @@ footer {
 
 
 
+.benefits{
+
+    background-color: #f0efef #f9e42e #033048 #606161 #121212;
+
+    font-family:  
+}
 
