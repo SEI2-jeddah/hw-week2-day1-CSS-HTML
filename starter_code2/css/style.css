@@ -1,0 +1,126 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* FONTS
+/*******************************************/
+
+/* font-family: "Open Sans", Arial, sans-serif */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+body {
+    background-color: #f0efef;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav, header{
+	background-color: #606161;
+	/*placeholder for now*/
+}
+nav {
+	text-align: left;
+}
+header{
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+}
+footer {
+	background-color: black;
+	text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.signUp{
+	background-color: #f9e42e;
+	text-align: center;
+}
+.signUp>button{
+	background-color: #033048;
+	color: white;
+	font-size: 12px
+}
+.reviews{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	background-color: #033048; 
+	/*background is a placeholder for now*/
+}
+.reviews>p{
+	font-style: italic;
+	font-weight: 300;
+}
+.dashConfig{
+	font-weight: 600;
+	list-style: none;
+	padding-left: 0;
+	margin: 5px;
+}
+.addDash::before{
+	content: "- ";
+}
+.sectionTextStyle{
+	font-size: 13px;
+	font-weight: 300;
+	color: #121212
+}
+footer h1{
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 24px;
+}
+footer p{
+	color: white;
+	font-size: 9px;
+	font-weight: 600;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	font-weight: 800;
+}
+button{
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 800;
+	background-color: #f9e42e;
+
+}
+ul{
+	list-style: disc;
+	margin: 25px;
+	padding-left: 5%;
+
+}
+h1{
+	color: #033048;
+	font-size: 20px;
+	font-weight: 600;
+}
