@@ -32,19 +32,60 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+ h3{
+     color:#033048;
+ }
+ .list{
+     color:#606161;
+     font-family:Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: light;
+ }
+
+.excel{
+    background-color: #f0efef;
+}
 
 header {
+    background-color: #f0efef;
+
 
 }
 
 footer {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 9px;
+    font-weight: semibold;
 
 }
 
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: extrabold;
+}
+
+#sing{
+    background-color: yellow;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: extrabold;
+    border-radius: 5px;
+    border-color: #033048
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: light;
+    font-style: italic;
+
+}
+span{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: semibold;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
