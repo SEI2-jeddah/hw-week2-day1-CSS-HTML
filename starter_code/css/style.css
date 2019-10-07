@@ -32,14 +32,166 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+#imagehead{
 
-header {
+    background-image: url("/starter_code/header_bg.jpg");
+    background-color: #cccccc; 
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-bottom: 0px; 
+    margin: 0;
+    padding:0;
+}
+#benefits{
+    background-color: #f0efef;
+    background: #f0efef;
+    color: #606161;
+    font-size: 13px;
+    padding: 50px 150px;
+    
+
+  
+}
+#benefitsStyle{
+    height: 250px
+}
+.button1{
+    display: block;
+    width: 200px ;
+    padding: 9px ;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color:#f9e42e;
+    color:#033048;
+    margin-top:40;
+    
+}
+#topic{
+    font-weight: bolder;
+    font-size: 24px;
+    color :white;   
+    float: initial;
+    margin-left: 50;
+    padding-top: 30px;
+
 
 }
+h2{
+    font-weight: 400;
+     color :white; 
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50;
+     font-size: 24px;
+     text-align: center;
+   
+}
+h3{
+    font-weight: 600;
+    font-size:20px;
+    color:#033048;
+     
+}
+p{
+   font-weight: lighter ;
+   font-size: 13px;
 
-footer {
 
 }
+li{
+    font-weight: lighter;
+    font-size:13px;
+
+    
+}
+#quotation{
+    background-image: url("/starter_code/testimonial_bg.jpg");
+    color: white;
+    text-align: center;
+        height: 400px; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        margin-bottom: 0px; 
+        margin-top:-40;
+        padding:0;
+        opacity: 0.8;
+
+}
+#quot{
+    padding-top: 100px;
+    font-weight: 40px;
+    font-size:18;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    display:inline-block;
+        font-size: 18px;
+        margin:50px;
+ 
+}
+#auhor{
+    font-family: emibold;
+    font-size: 18px; 
+
+}
+.button2{
+    display: block;
+    width: 200px ;
+    padding: 9px ;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color:#f9e42e;
+    color:white;
+    background-color: #033048;
+}
+#bottom-2{
+    background-color: #f9e42e;
+    padding:30px;
+    
+}
+h4{
+    font-weight: 900;
+    font-size: 24px;
+    color:yellow;
+}
+.copyright  {
+    font-size: 9px; 
+    font-family: semibold; 
+    color : white; 
+    }
+    
+    footer {
+        background-color: #606161 ; 
+        border : 12px , 5px ; 
+        font-weight:200;
+        font-size: 28px;
+        padding: 50px;
+        text-align: center;
+    }
+
+      #contact{
+          display:inline;
+         
+          display: block;
+      }
+      a
+      {
+          margin:30;
+      }
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
