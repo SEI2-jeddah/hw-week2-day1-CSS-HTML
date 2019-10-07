@@ -22,7 +22,8 @@
 
 
 body {
-    color: #000;
+    background-color: #f0efef
+    color:;
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
@@ -34,10 +35,67 @@ body {
 /*******************************************/
 
 header {
+background-color: gainsboro
 
 }
+.firstPage p{
+    color: black;
+    color: white;
+}
+.firstPage h1{
+    color:black;
+    margin :100px;
+    color: white;
+}
+.firstPage a{
+    color: grey;
+    
+}
+article{
+    text-align: center;
+    background-color: yellow;
+}
+.sectionOne{
+    background-color: #f0efef
+}
+.sectionOne h1{
+    color: grey;
+}
+.sectionOne .insideS01{
+    color: lightslategrey
 
-footer {
+
+}
+.sectionTwo{
+    background-color: darkblue;
+}
+.sectionTwo blockquote{
+    text-align: center;
+    color: white;
+}
+.sectionTwo p{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: dimgrey;
+}
+
+.footy{
+    text-align: center;
+}
+
+footer .footy.h1{
+color: orange;
+float: right;
+}
+footer .footy img{
+    color: white;
+
+}
+footer .footy small{
+    color: white;
 
 }
 
