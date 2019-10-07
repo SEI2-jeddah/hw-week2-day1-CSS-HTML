@@ -35,11 +35,101 @@ body {
 
 header {
 
+    padding : 0px; 
+    margin: 0 10%;
+
 }
+.header-content {
+
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    color: #f1f1f1; /* Grey text */
+    width: 105%; /* Full width */
+    height: 398px;
+    padding: 20px; /* Some padding */
+
+}
+.header-button{
+
+    background-color: #f9e42e;
+    border: none;
+    color:#121212;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10% 33% ;
+    border-radius: 4px;
+    width: 170px ;
+    
+
+}
+#first{
+
+    background-color: #f0efef;
+   
+    width: 84%;
+    height: 300px;
+    margin: 0 10%;
+    
+
+}
+
+#second {
+
+    position: relative;
+    padding : 0px; 
+    margin: 0 10% ;
+    
+
+    
+
+}
+.content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(61, 61, 68, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 105%; /* Full width */
+    height: 398px;
+    padding: 20px; /* Some padding */
+    text-align: center;
+  }
+
+#thied {
+    background-color: #f9e42e;
+    height: 90px;
+    width: 84%;
+    padding : 0px; 
+    margin: 0 10%;
+}
+
+.button {
+    background-color: #033048 ;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 25px 40%;
+    border-radius: 4px;
+    width: 200px ;
+  }
 
 footer {
 
+    background-color:#484949 ;
+    height: 265px;
+    width: 84%;
+    padding : 0px; 
+    margin: 0 10%;
 }
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
