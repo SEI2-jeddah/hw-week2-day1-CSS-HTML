@@ -8,17 +8,59 @@
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
-
-/******************************************
-/* FONTS
-/*******************************************/
-p{
-
-    font-family: "Open Sans", Arial, sans-serif; 
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+.clearfix:after {
+    content: ".";
+     display: table;
+      clear: both;
+     visibility: hidden;
+      line-height: 0;
+     height: 0;
     
 }
+
+.clear {
+ clear: both;
+}
+
+.alignright {
+ float: right;
+    padding: 0 0 10px 10px; 
+    
+    /* note the padding around a right floated image */
+}
+
+.alignleft {
+ float: left;
+    padding: 0 10px 10px 0; 
+    
+    /* note the padding around a left floated image */
+}
+
+
+ 
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    background-color: yellow;
+  
+  }
+  
+   .container {
+      font-family: 'Open Sans', sans-serif;
+      font-style: extra-bold;
+      font-weight: bolder;
+      weight: extra-bold;
+      color: white;
+      font-size: 50px;
+      margin-top: 40px;
+      margin-left:40px; 
+   }
+
+
+   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 /******************************************
 /* BASE STYLES
@@ -39,7 +81,9 @@ body {
 /*******************************************/
 
 header {
-
+    height: 600px;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+       background-size: cover;
 }
 
 footer {
@@ -54,9 +98,17 @@ footer {
 
 
 .benefits{
-
-    background-color: #f0efef #f9e42e #033048 #606161 #121212;
-
-    font-family:  
+    background-color: lightgray;
 }
 
+.signup-button {
+    color: white;
+    padding: 24px;
+    background-color: navy;
+    font-size: 24px;
+  
+  }
+  
+  .signup-container {
+    background-color: yellow;
+  }
