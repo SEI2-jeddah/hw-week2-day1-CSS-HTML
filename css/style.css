@@ -1,0 +1,28 @@
+.benefits{
+    background-color: white;
+}
+
+
+header{
+    background-size: cover;
+    background-image: url(''); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+footer{
+    background-color: rgb(24,24,24);
+}
+.icons{
+    width :110px;
+    margin: 0 auto;
+}
+footer>img{
+    padding: 0 30px;
+    margin: 30px;
+    padding-bottom: 40px;
+}
