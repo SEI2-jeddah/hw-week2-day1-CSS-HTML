@@ -26,25 +26,116 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
 }
+
+ul {
+    list-style: none;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-weight: Semibold;
+    text-align: center
+ }
+
+ li{
+    color: #121212;
+    font-size: 13px;
+    font-weight: Semibold;
+    padding: 0 0 0 50px;
+    text-align: center;
+
+ }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
+
 header {
+    background-size: 10px;
+    background-image: url('../images/header_bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center
 
 }
+header>h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 40px;
+    margin: 90px auto 0 auto;
+    text-align: center
+ }
 
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 
+.benifits {
+
+    font-weight : bold;
+    font-size : 14px;
+}
+
+p{
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+
+nav{
+    font-weight: lighter;
+    font-size: 13px;
+
+}
+footer {
+    background-color: rgb(24,24,24)
+
+}
+h1{
+    color:white;
+    font-weight: bold; 
+    font-size: 24px;
+    text-align: center
+}
+
+button{
+    background-color: yellow;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+#down{
+    color: white;
+    font-weight: lighter italic;
+}
+
+.amanda{
+    color: white;
+    font-weight: bold;}
 
 
+
+
+.sign-up-now
+{
+    background-color: yellow;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center
+
+}
+/* h2{ */
+    color:white;
+}
